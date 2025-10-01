@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Embedded Scratch Project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratch Game</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>My Scratch Project</h1>
-  <iframe 
-    src="https://scratch.mit.edu/projects/1077449176/embed" 
-    allowtransparency="true" 
-    width="485" 
-    height="402" 
-    frameborder="0" 
-    scrolling="no">
-  </iframe>
-  <p>
-    <a href="https://scratch.mit.edu/projects/1077449176/" target="_blank">
-      View on Scratch
-    </a>
-  </p>
+  <!-- TurboWarp Embed -->
+  <iframe src="https://turbowarp.org/1077449176/embed?autoplay&fps=60&resolution=1080x720&fullscreen"
+    allowfullscreen></iframe>
 </body>
+
 </html>
